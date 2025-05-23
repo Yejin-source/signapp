@@ -379,3 +379,48 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-23 15:38:25.720
+!MESSAGE Classpath changed for project: signapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-23 15:38:25.722
+!MESSAGE Boot project ADDED: signapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-23 15:38:25.723
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-23 15:38:25.767
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-23 15:38:25.794
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\spring\eclipse-jee-2024-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/spring/signapp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1747982305792
+-Dlanguageserver.hover-timeout=225
+-jar
+D:\spring\eclipse-jee-2024-12-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-23 15:38:25.795
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-23 15:38:25.806
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 22208
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-23 15:38:26.866
+!MESSAGE Classpath changed for project: signapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-23 15:39:28.975
+!MESSAGE Classpath changed for project: signapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-23 15:39:29.027
+!MESSAGE Classpath changed for project: signapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-23 15:39:30.812
+!MESSAGE Classpath changed for project: signapp
