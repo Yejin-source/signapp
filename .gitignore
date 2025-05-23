@@ -1,0 +1,39 @@
+# === Java & Maven/Gradle ===
+*.class
+*.jar
+*.war
+*.iml
+*.log
+
+# === Build directories ===
+/target/
+/build/
+
+# === IDE ===
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# VS Code
+.vscode/
+
+# === OS 별 파일 ===
+.DS_Store
+Thumbs.db
+
+# === 환경 파일 ===
+application.properties
+application.yml
+application-dev.properties
+application-*.yml
+
+# === 기타 ===
+.env
+*.db
